@@ -13,11 +13,12 @@ An automated, voice-activated desktop assistant built with Python.
 * **Interface:** CustomTkinter
 * **Core Libraries:** `speech_recognition`, `AppOpener`, `pywhatkit`
 
-## ⚙️ Installation
-1. Clone the repository: `git clone https://github.com/VegitoBlue26/DCMS-For-Git.git`
+## ⚙️ Installation (All processes here can be done in the VS Code terminal)
+1. Clone the repository in VS Code terminal: `git clone https://github.com/VegitoBlue26/DCMS-For-Git.git`
 2. Create a virtual environment: `python -m venv venv`
-3. Activate the environment and install dependencies: `pip install -r requirements.txt`
-4. Run the system manually to test: `python DCMSmain.pyw`
+3. Activate the virtual environment: `.\venv\Scripts\Activate`
+4. Activate the environment and install dependencies: `pip install -r requirements.txt`
+5. Run the system manually to test: `python DCMSmain.pyw`
 
 ## 💻 System Integration (Auto-Start on Windows)
 To make DCMS a true background assistant, you can set it to launch automatically when you turn on your computer. 
